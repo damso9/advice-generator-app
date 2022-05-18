@@ -1,0 +1,80 @@
+$main-green: hsl(150, 100%, 66%);
+$main-gray: hsl(193, 38%, 86%);
+$card-background: hsl(217, 19%, 38%);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsl(218, 23%, 16%);
+  main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  3rem;
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 38%);
+     header h3 {
+      color: $main-green;
+      text-align: center;
+    } 
+    section {
+        p {
+            font-size: 28px;
+            color: $main-gray;
+            text-align: center;
+            font-weight: 800;
+            margin-top: 20px;
+        }
+        aside {
+            position: relative;
+            margin-top: 30px;
+            border: 2px solid red;
+            #hr-1 {
+                color: $main-gray;
+                width: 40%;
+                position: absolute;
+                top: 7px;
+            }
+            #hr-2 {
+                color: $main-gray;
+                width: 40%;
+                position: absolute;
+                top: 7px;
+                right: 0;
+            }
+            img {
+                display: block;
+                height: 20px;
+                border: 2px solid yellow;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }
+        footer {
+            position: relative;
+            border: 2px solid blue;
+            margin: 30px;
+            position: relative;
+            .dice-container {
+
+                background-color: $main-green;
+                position: absolute;
+                top: -30px;
+                padding: 20px;
+                border-radius: 50%;
+                #dice {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+        }
+    }
+
+  }
+}

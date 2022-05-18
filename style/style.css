@@ -1,0 +1,83 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1f2632;
+}
+
+body main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  border-radius: 10px;
+  background-color: #4e5d73;
+}
+
+body main header h3 {
+  color: #52ffa8;
+  text-align: center;
+}
+
+body main section p {
+  font-size: 28px;
+  color: #cee3e9;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+body main section aside {
+  position: relative;
+  margin-top: 30px;
+  border: 2px solid red;
+}
+
+body main section aside #hr-1 {
+  color: #cee3e9;
+  width: 40%;
+  position: absolute;
+  top: 7px;
+}
+
+body main section aside #hr-2 {
+  color: #cee3e9;
+  width: 40%;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
+
+body main section aside img {
+  display: block;
+  height: 20px;
+  border: 2px solid yellow;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body main section footer {
+  position: relative;
+  border: 2px solid blue;
+  margin: 30px;
+  position: relative;
+}
+
+body main section footer .dice-container {
+  background-color: #52ffa8;
+  position: absolute;
+  top: -30px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+body main section footer .dice-container #dice {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*# sourceMappingURL=style.css.map */
