@@ -10,9 +10,13 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 16px; text-align: center;
+    margin-top: 40px; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./style/style.css">
   <script src="./script/app.js" defer></script>
 </head>
@@ -20,22 +24,24 @@
 
   <main>
     <header>
-      <h3>Advice</h3>
+      <h3>ADVICE <span id="advice-id">#117</span></h3>
     </header>
     <section>
-      <p>"It is easy to sit up and take notice, what's 
+      <p id="advice-quote">"It is easy to sit up and take notice, what's 
         difficult is getting up and taking action"
         </p>
         <aside>
           <hr id="hr-1">
-          <img src="./images/pattern-divider-mobile.svg" alt="pattern divider">
+          <img src="./images/pattern-divider-mobile.svg" alt="pattern divider" id="pattern-divider">
           <hr id="hr-2">
         </aside>
         <footer>
-          <div class="dice-container">
-          <img src="./images/icon-dice.svg" id="dice" alt="dice">
-
-          </div>
+          <aside>
+            <div class="dice-container">
+              <img src="./images/icon-dice.svg" id="dice" alt="dice">
+    
+              </div>
+          </aside>
         </footer>
     </section>
   </main>
