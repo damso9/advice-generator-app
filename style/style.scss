@@ -11,7 +11,7 @@ body {
   background-color: hsl(218, 23%, 16%);
   font-family: "Manrope", sans-serif;
   main {
-  padding: 20px;
+    padding: 20px;
     padding-bottom: 0;
     max-width: 480px;
     margin-left: auto;
@@ -22,7 +22,7 @@ body {
     header h3 {
       color: $main-green;
       text-align: center;
-      font-size: .9rem;
+      font-size: 0.9rem;
     }
     section {
       p {
@@ -52,12 +52,10 @@ body {
         #pattern-divider {
           display: block;
           height: 20px;
-        //   border: 2px solid yellow;
+          //   border: 2px solid yellow;
           margin-left: auto;
           margin-right: auto;
-        margin-bottom: 25px;
-
-          
+          margin-bottom: 25px;
         }
       }
       footer {
@@ -66,7 +64,7 @@ body {
         // margin: 30px;
 
         aside {
-        //   border: 2px solid green;
+          //   border: 2px solid green;
           position: relative;
           width: 50%;
           margin-left: auto;
@@ -86,8 +84,8 @@ body {
             border: 2px solid red;
             transition: background-color 0.3s ease-in-out;
             &:hover {
-                cursor: pointer;
-                background-color: hsl(150, 52%, 29%);
+              cursor: pointer;
+              background-color: hsl(150, 52%, 29%);
             }
             #dice {
               display: block;
